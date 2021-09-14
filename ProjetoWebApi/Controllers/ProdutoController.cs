@@ -67,7 +67,7 @@ namespace ProjetoWebApi.Controllers
 
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadDeImagem()
+        public async Task<IActionResult> UploadDeImagem() 
         {
 
             // Upload de imagem para o servidor
